@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>广本官微x百度地图 | 即刻狂飙</title>
+    <meta name="viewport" content="width=device-width,maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <link rel="stylesheet" href="css/gx-animate.min.css?611">
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="css/picker.css?12">
+    <link rel="stylesheet" href="css/index.css?v=012321654354">
+    <script type="text/javascript">
+        document.write('<link rel="stylesheet" href="css/info.css?' + new Date().getTime() + '">');
+    </script>
+    <script>
+        var _czc = _czc || [];
+        (function () {
+            var um = document.createElement("script");
+            um.src = "https://s4.cnzz.com/z.js?id=1281393786&async=1";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(um, s);
+        })();
+    </script>
+
+    <script>
+        function getQueryVariable(variable) {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i = 0; i < vars.length; i++) {
+                var pair = vars[i].split("=");
+                if (pair[0] == variable) {
+                    return pair[1];
+                }
+            }
+            return (false);
+        }
+    </script>
+    <script type="text/javascript">
+        if (getQueryVariable('debug')) {
+            document.write('<script language="javascript" type="text/javascript" src="js/v.js?"><\/script\>');
+        }
+    </script>
+    <script type="text/javascript">
+        ! function (e, t) {
+            function n() {
+                var n = l.getBoundingClientRect().width;
+                t = t || 540, n > t && (n = t);
+                var i = 100 * n / e;
+                r.innerHTML = "html{font-size:" + i + "px !important;}"
+            }
+            var i, d = document,
+                o = window,
+                l = d.documentElement,
+                r = document.createElement("style");
+            if (l.firstElementChild) l.firstElementChild.appendChild(r);
+            else {
+                var a = d.createElement("div");
+                a.appendChild(r), d.write(a.innerHTML), a = null
+            }
+            n(), o.addEventListener("resize", function () {
+                clearTimeout(i), i = setTimeout(n, 300)
+            }, !1), o.addEventListener("pageshow", function (e) {
+                e.persisted && (clearTimeout(i), i = setTimeout(n, 300))
+            }, !1), "complete" === d.readyState ? d.body.style.fontSize = "16px" : d.addEventListener("DOMContentLoaded", function (e) {
+                d.body.style.fontSize = "16px"
+            }, !1)
+        }(750, 750);
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/main.css?v=1">
+</head>
+
+<body>
+    <!-- loading -->
+    <div class="loading">
+        <div class="loading-text">
+            <p class="load-tet">加载0%</p>
+        </div>
+    </div>
+    <div id="stage-os"></div>
+    <div class="wrap page-wrap">
+
+        <div class="page page1" data-height="1624" data-scroller="false" data-lock-next="true" data-lock-prev="true">
+            <div class="page-inner">
+                <img src="./images/logo.png" alt="" class="pageLogo">
+                <img class="rules" src="./images/1-1.png" alt="">
+                <img class="ranking" src="./images/1-2.png" alt="">
+                <img class="myPrize" src="./images/1-3.png" alt="">
+                <img class="fillNickname" src="./images/1-4.png" alt="">
+            </div>
+        </div>
+        <div class="page page2" data-height="1624" data-scroller="false" data-lock-next="true" data-lock-prev="true">
+            <div class="page-inner">
+                <img src="./images/logo.png" alt="" class="pageLogo">
+                <img src="./images/return.png" alt="" class="previousLevel">
+                <div class="upgradeBox">
+                    <div class="upgradeType">
+                        <img src="./images/2-3.png" alt="" class="regarding">
+                    </div>
+                    <div class="upgradeType">
+                        <img src="./images/2-3.png" alt="" class="regarding">
+                    </div>
+                    <div class="upgradeType">
+                        <img src="./images/2-3.png" alt="" class="regarding">
+                    </div>
+                </div>
+                <img src="./images/2-2.png" alt="" class="gameStart">
+            </div>
+        </div>
+        <div class="page page3" data-height="1624" data-scroller="false" data-lock-next="true" data-lock-prev="true">
+            <div class="page-inner">
+                <img src="./images/logo.png" alt="" class="pageLogo">
+                <img src="./images/return.png" alt="" class="previousLevel">
+                <div class="lotteryBox">
+                    <img src="./images/3-1.png" alt="" class="lotteryBoxImg">
+                    <img src="./images/3-2.png" alt="" class="parLottery">
+                    <img src="./images/3-3.png" alt="" class="lotteryHref">
+                    <img src="./images/3-4.png" alt="" class="lotteryBoxText">
+                </div>
+            </div>
+        </div>
+        <div class="page page4" data-height="1624" data-scroller="false" data-lock-next="true" data-lock-prev="ture">
+            <div class="page-inner">
+                <img src="./images/logo.png" alt="" class="pageLogo">
+                <img src="./images/return.png" alt="" class="previousLevel">
+                <div class="keepFundsBox">
+                    <img style="width: 4.39rem;height: 0.99rem;margin-bottom: 0.5rem;" src="./images/4-1.png" alt="">
+                    <div class="fundsli">
+                        <div style="width: 0.9rem;text-align: center;">昵称</div>
+                        <div class="val">
+                            <input type="text" placeholder="请输入昵称" id="usernames">
+                        </div>
+                    </div>
+                    <div class="fundsli">
+                        <div style="width: 0.9rem;text-align: center;">电话</div>
+                        <div class="val">
+                            <input type="text" placeholder="请输入电话" id="phone" maxlength="11">
+                        </div>
+                    </div>
+                    <div class="fundsli ">
+                        <div class="fundsli">
+                            <div style="width: 0.9rem;text-align: center;">省份</div>
+                            <div class="vals">
+                                <select name="province" id="province"></select>
+                                <div class="btnDown"><img src="images/down.png"></div>
+                            </div>
+                        </div>
+                        <div class="fundsli">
+                            <div style="width: 0.9rem;text-align: center;">城市</div>
+                            <div class="vals">
+                                <select name="city" id="city"></select>
+                                <div class="btnDown"><img src="images/down.png"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="fundsli">
+                        <div style="width: 0.9rem;text-align: center;">地址</div>
+                        <div class="val">
+                            <input type="text" placeholder="请输入地址" id="address">
+                        </div>
+                    </div>
+                    <img src="./images/4-2.png" alt="" class="keepFundsClick">
+                </div>
+            </div>
+        </div>
+        <div class="page page5" data-height="1624" data-scroller="false" data-lock-next="true" data-lock-prev="ture">
+            <div class="page-inner">
+                <img src="./images/logo.png" alt="" class="pageLogo">
+                <img src="./images/return.png" alt="" class="previousLevel">
+                <img src="./images/5-1.png" alt="" class="rankingTitle">
+                <img src="./images/5-3.png" alt="" class="rankingSign">
+                <div class="rankingList">
+                    <div class="rankingListBox">
+                        <div class="rankingTh">
+                            <div>名称</div>
+                            <div>昵称</div>
+                            <div>金币</div>
+                        </div>
+                        <div class="swiper-container rankingTr" id="rankingTr-swiper">
+                            <div class="swiper-wrapper rankingTr_Swiper">
+                                <div class="swiper-slide rankingTr_Slide ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="rankingTr">
+                            <div class="rankingTrList">
+                                <div>
+                                    <img src="./images/ranking1.png" alt="" style="width: 0.37rem;height: 0.56rem;">
+                                </div>
+                                <div>加上批发价加上批发价加上批发价加上批发价</div>
+                                <div>30</div>
+                            </div>
+                            <div class="rankingTrList">
+                                <div>1</div>
+                                <div>加上批发价</div>
+                                <div>30</div>
+                            </div>
+                            <div class="rankingTrList">
+                                <div>1</div>
+                                <div>加上批发价</div>
+                                <div>30</div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="personalRanking">
+
+                </div>
+                <img src="./images/5-4.png" alt="" class="rankingClick">
+            </div>
+        </div>
+        <!-- 游戏 -->
+        <div class="page page6" data-lock-next="true" data-lock-prev="true">
+            <div class="page-inner">
+                <div class="page-inner" id="pixiContainer">
+                    <img src="./images/logo.png" alt="" class="pageLogo">
+                    <!-- <img class="img10" src="images/img10.png"> -->
+                    <div class="icon-tooltip">金币：0</div>
+                    <div class="countDown">
+                        <div class="minuteText">00</div>
+                        <div class="secondText">00</div>
+                        <div class="msText">00</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="tk tk-load tk-main" id="wxloading" style="background:none;">
+        <div class="tk-container">
+            <div class="weui-toast">
+                <i class="weui-loading weui-icon_toast">
+                </i>
+                <p class="weui-toast__content">数据加载中</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 倒计时弹框 -->
+    <div class="tk tk-load" id="countDownModel">
+        <img class="guide-time" style="width: 100%;margin-top: 0.58rem" src="images/game/timer1.png">
+        <div style="font-size: 0.30rem;text-align: center;">拖动车身可左右移动</div>
+    </div>
+
+
+    <!-- 活动规则 -->
+    <div class="tk tk-load tk-main" id="activityRules" style="display: none">
+        <div class="tk-container">
+            <div class="my_prize">
+                <img src="./images/tk-1-1.png" alt="" class="ismy_prize">
+                <div class="swiper-container" id="pers-swiper">
+                    <div class="swiper-wrapper pers_Swiper">
+                        <div class="swiper-slide pers_Slide swiper-slide-active">
+                            <img src="./images/tk-1-2.png?1" alt="" style="width: 5.21rem;">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 我的奖品 -->
+    <div class="tk tk-load tk-main" id="noPrize" style="display: none">
+        <div class="tk-container">
+            <div class="noPrize"></div>
+            <div class="confirmClose"></div>
+        </div>
+    </div>
+    <div class="tk tk-load tk-main" id="yesPrize" style="display: none">
+        <div class="tk-container">
+            <div class="yesPrize"></div>
+            <div class="yesNamePrize">
+
+            </div>
+            <div class="isYesPrize"></div>
+        </div>
+    </div>
+    <!-- 留名试驾 -->
+    <div class="tk tk-load tk-main" id="leaveName" style="display: none">
+        <div class="tk-container">
+            <div class="leaveName">
+                <div class="leaveBox">
+                    <div style="width: 0.9rem;">昵称</div>
+                    <div class="val">
+                        <input type="text" placeholder="请输入昵称" id="username">
+                    </div>
+                </div>
+                <img src="./images/tk-3-1.png" alt="" class="leaveNameClick">
+            </div>
+        </div>
+    </div>
+    <!-- 升级弹窗 -->
+    <div class="tk tk-load tk-main" id="upgradeTk" style="display: none">
+        <div class="tk-container">
+            <div class="upgradeTk">
+                <div class="close"></div>
+                <!-- <img src="./images/tk-1-1.png" alt=""> -->
+                <div class="swiper-container" id="upgradeTk-swiper">
+                    <div class="swiper-wrapper upgradeTk_Swiper">
+                        <div class="swiper-slide upgradeTk_Slide swiper-slide-active">
+                            <img src="./images/tk-4-0-1.png" alt="" style="width: 4.1rem;" class="upgradeConter">
+                        </div>
+                    </div>
+                </div>
+                <div class="upgradeEidt">
+                    <img src="./images/tk-4-yes.png" alt="" class="upgradeYes">
+                    <img src="./images/tk-4-no.png" alt="" class="upgradeNo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 没有机会 -->
+    <div class="tk tk-load tk-main" id="notWinning" style="display: none">
+        <div class="tk-container">
+            <div class="notWinning"></div>
+            <img src="./images/confirmClose.png" alt="" class="notClose">
+        </div>
+    </div>
+    <!-- 未中奖 -->
+    <div class="tk tk-load tk-main" id="notChance" style="display: none">
+        <div class="tk-container">
+            <div class="notChance"></div>
+            <img src="./images/confirmClose.png" alt="" class="notClose">
+        </div>
+    </div>
+    <!-- 中奖 -->
+    <div class="tk tk-load tk-main" id="winning" style="display: none">
+        <div class="tk-container">
+            <div class="winning">
+                <div class="winningConter"></div>
+            </div>
+            <img src="./images/tk-5-0-1.png" alt="" class="winningClick">
+        </div>
+    </div>
+    <!-- 游戏结束 -->
+    <div class="tk tk-load tk-main" id="gameOver" style="display: none">
+        <div class="tk-container">
+            <div class="gameOverBox">
+                <div class="gameOverBoxText">
+                    <!-- <img src="./images/tk-6-0.png" alt="" class="gameOverTilte">
+                    <p style="margin: 0.2rem 0;">您本次操作失误了</p>
+                    <p>获取10个金币</p> -->
+                </div>
+                <img src="./images/tk-6-2.png" alt="" class="playAgain">
+                <img src="./images/tk-6-3.png" alt="" class="goLottery">
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/howler.min.js"></script>
+    <script src="js/pixi.min.js"></script>
+    <script src="js/pixi-Adaption.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/PageSlider.js?v=1818"></script>
+    <script src="js/swiper-3.4.2.min.js"></script>
+    <script type="text/javascript" src="js/weui.min.js"></script>
+    <script type="text/javascript" src="js/model.js?1"></script>
+
+
+    <script type="text/javascript" src="./js/aes/crypto.js"></script>
+    <script type="text/javascript" src="./js/aes/aes.js"></script>
+    <script type="text/javascript" src="./js/aes/index.js"></script>
+    <script type="text/javascript" src="./js/aes/main.js"></script>
+
+
+
+
+    <script type="text/javascript">
+        document.write('<script language="javascript" type="text/javascript" src="js/game.js?' + new Date().getTime() +
+            '"><\/script\>');
+    </script>
+    <script src="js/html2canvas.min.js"></script>
+    <script src="js/PCASClass.js"></script>
+
+
+
+
+
+    <!-- <script src="js/v.js"></script> -->
+    <script type="text/javascript">
+        document.write('<script language="javascript" type="text/javascript" src="js/info.js?' + new Date().getTime() +
+            '"><\/script\>');
+    </script>
+    <script type="text/javascript">
+        if (/Android [4-6]/.test(navigator.appVersion)) {
+            window.addEventListener("resize", function () {
+                if (document.activeElement.tagName == "INPUT" || document.activeElement.tagName == "TEXTAREA") {
+                    window.setTimeout(function () {
+                        document.activeElement.scrollIntoViewIfNeeded();
+                    }, 0);
+                }
+            })
+        }
+        $("input,select,textarea").blur(function () {
+            setTimeout(function () {
+                window.scrollTo(0, 0);
+            }, 100);
+        });
+        document.body.addEventListener('touchmove', function (e) {
+            e.preventDefault();
+        }, {
+            passive: false
+        });
+    </script>
+</body>
+
+</html>
